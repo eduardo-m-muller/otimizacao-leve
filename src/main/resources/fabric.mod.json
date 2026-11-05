@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "otimizacao_leve",
+  "version": "${version}",
+  "name": "Otimizacao Leve",
+  "description": "Aplica configuracoes leves de video a cada abertura do jogo. Somente cliente.",
+  "authors": ["Eduardo"],
+  "environment": "client",
+  "mixins": ["otimizacao_leve.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.1",
+    "java": ">=21"
+  }
+}
